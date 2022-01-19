@@ -6,7 +6,7 @@
 .header{
     display: flex;
     align-items: center;
-    background-color:red;
+    background-color:rgb(42, 150, 141);
 }
 .nav{
     display: flex;
@@ -17,6 +17,7 @@
     background-color:red;
     height:73.1vh;
     overflow: scroll;
+    padding:4vh;
 }
 .publicidad{
     background-color:yellow;
@@ -39,11 +40,67 @@
 
 .redes{
     display:flex;
-    align-items: space-between;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .miniatura{
     width: 5vw;
     height: 5vh;
+
+}
+h2{
+    text-align: center;
+}
+a{
+   text-decoration: none;
+   color: black !important;
+}
+.barra{
+    background-color: yellow;
+}
+.mapa{
+    padding:0px;
+}
+/* carusel */
+.planes{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.cuerpo{
+    height:60vh;
+}
+.carousel{
+    width:40vw;
+    
+}
+/* lista */
+.lista{
+    width: 70vw;
+    height: 70vh;
+    text-align: center;
+    border: 5px solid black;
+}
+.lista__columnas{
+    background-color:green;
+    text-align: center;
+    
+}
+.lista__filas{
+    background-color:fuchsia;
+    text-align: center;
+    border: 5px solid black;
+}
+th{
+    border:5px solid black;
+}
+td{
+    border:5px solid black;
+}
+.datos{
+    display:flex;
+    flex-direction: column;
 
 }

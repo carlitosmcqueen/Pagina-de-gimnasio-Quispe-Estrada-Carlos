@@ -27,9 +27,11 @@
                 <nav class="nav nav-pills flex-column flex-sm-row">
                     <a class="flex-sm-fill text-sm-center nav-link " aria-current="page" href="../index.html">HOME</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="../paginas/info.html">¿Donde estamos?</a>
-                    <a class="flex-sm-fill text-sm-center nav-link" href="../paginas/planes.html">Planes de Entrenamiento</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="../paginas/planes.html">Planes de
+                        Entrenamiento</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="../paginas/horario.html">Horarios</a>
-                    <a class="flex-sm-fill text-sm-center nav-link active" href="../paginas/membresia.html">Membresia</a>
+                    <a class="flex-sm-fill text-sm-center nav-link active bg-danger"
+                        href="../paginas/membresia.html">Membresia</a>
                 </nav>
             </div>
         </div>
@@ -37,9 +39,58 @@
     <main class="main container-fluid">
         <!-- cuerpo -->
         <div class="row">
-            <!-- donde va el texto -->
-            <div class="texto col-md-9">
-                <p>hola</p>
+            <div class="texto datos col-md-9">
+                <h2>Registrate <br>Y empieza a trabajar tu cuerpo </h2>
+
+                <form class="row">
+                        <div class="col-md-4">
+                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col-md-4">
+                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label"></label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Dirrecion">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputPassword4" class="form-label"></label> <input type="number"
+                            class="form-control" placeholder="Numero de casa">
+                    </div>
+                    <div class="col-6">
+                        <label for="inputAddress" class="form-label"></label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Email">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputCity" class="form-label"></label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputState" class="form-label"></label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Elija un plan</option>
+                            <option>Liviano</option>
+                            <option>Mediano</option>
+                            <option>Viloni</option>
+                        </select>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escribinos si tenes alguna
+                            sugerencia</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                ¿Estas seguro?
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Mejorar cuerpo</button>
+                    </div>
+                </form>
             </div>
             <!-- donde va la publi -->
             <div class="publicidad col-md-3">
@@ -55,7 +106,9 @@
                 </audio>
             </div>
             <div class="redes col-md-3">
-                <p>redes</p>
+                <img class="miniatura" src="../img/facebook.png" class="img-fluid" alt="facebook">
+                <img class="miniatura" src="../img/twitter.png" class="img-fluid" alt="twitter">
+                <img class="miniatura" src="../img/instagram.png" class="img-fluid" alt="instagram">
             </div>
         </div>
     </footer>
@@ -63,4 +116,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
+
 </html>
